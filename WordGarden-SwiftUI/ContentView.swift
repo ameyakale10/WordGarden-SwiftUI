@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var wordsGuessed = 0
     @State private var wordsMissed = 0
     @State private var wordsToGuess = ["SWIFT", "DOG", "CAT"]
-    @State private var CurentWord = 0
+    @State private var CurrentWord = 0
     @State private var gameStatusMessage = "How many Guesses to Uncover the Hidden Word?"
     @State private var guessedLetter = ""
     @State private var imageName = "flower8"
